@@ -27,3 +27,21 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 50px;
+  box-sizing: border-box;
+  grid-template-rows: 200px 150px;
+  flex-grow: 0;
+  
+}
+li{
+  grid-template-columns: min-content;
+  background-color: rgba(141, 212, 59, 0.63);
+  text-align: center;
+  padding: 50px 0;
+  font-size: 40px;
+}
